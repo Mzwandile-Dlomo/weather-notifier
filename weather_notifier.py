@@ -30,12 +30,12 @@ def get_weather_data(region):
         params = {'q': region, 'appid': openWeather_api_key}
         response = requests.get(weather_api_url, params=params)
 
-        print("Status: ", response.status_code)
+        # print("Status: ", response.status_code)
 
         # Check if the request was successful (status code 200)
         if response.status_code == 200:
 
-            print("Fetching weather data")
+            # print("Fetching weather data")
             # Parse the JSON content of the response
             weather_dat = response.json()
 
@@ -45,7 +45,7 @@ def get_weather_data(region):
             # For example, save it to a file
             with open('weather_data.json', 'w') as f:
                 json.dump(weather_data, f, indent=4)
-            print("Your data is ready! check weather_data.json")
+            # print("Your data is ready! check weather_data.json")
         else:
             print(f"Failed to fetch weather data. Status code: {response.status_code}")
 
