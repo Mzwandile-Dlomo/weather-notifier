@@ -3,7 +3,7 @@ A simple Python script to fetch weather data based on your location using the Op
 
 # Prerequisites
 Python 3.x, 
-OpenWeatherMap API Key (Sign up here to get your key)
+OpenWeatherMap API Key
 
 # Setup
     Clone the repository:
