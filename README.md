@@ -2,7 +2,7 @@
 A simple Python script to fetch weather data based on your location using the OpenWeatherMap API. Convert temperatures from Kelvin to Celsius and save the results in a user-friendly format.
 
 # Prerequisites
-Python 3.x
+Python 3.x, 
 OpenWeatherMap API Key (Sign up here to get your key)
 
 # Setup
